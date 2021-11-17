@@ -1,23 +1,26 @@
 package main
 
 import (
-	"fmt"
+	// "fmt"
 
-	"codeblock.ir/helloGoLang/mathOperations"
+	// "codeblock.ir/helloGoLang/mathOperations"
+	"codeblock.ir/helloGoLang/mathRestApi"
 )
 
 func main() {
 
-	var firstNum string
-	var secondNum string
+	// var firstNum string
+	// var secondNum string
 
-	fmt.Println("enter num 1 :")
-	fmt.Scanln(&firstNum)
-	fmt.Println("enter num 2 :")
-	fmt.Scanln(&secondNum)
+	// fmt.Println("enter num 1 :")
+	// fmt.Scanln(&firstNum)
+	// fmt.Println("enter num 2 :")
+	// fmt.Scanln(&secondNum)
 
-	fmt.Println("the sum is :")
+	// fmt.Println("the sum is :")
 
-	var a = mathOperations.ParseAndSum(firstNum, secondNum)
-	fmt.Println(a)
+	// var a = mathOperations.ParseAndSum(firstNum, secondNum)
+	// fmt.Println(a)
+
+	mathRestApi.HandleRequests()
 }
