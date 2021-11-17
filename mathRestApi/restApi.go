@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
+	"codeblock.ir/helloGoLang/mathOperations"
 	"github.com/gorilla/mux"
-	// "codeblock.ir/helloGoLang/mathOperations"
 )
 
 //default page for root address
@@ -27,12 +27,25 @@ func docs(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("Endpoint Hit: doc")
 }
 
+//sum 2 numbers
+func sumNumbers(w http.ResponseWriter, r *http.Request) {
+	vars := mux.Vars(r)
+	num1 := vars["num1"]
+	num2 := vars["num2"]
+
+	var sum = mathOperations.ParseAndSum(num1, num2)
+	var response = num1 + " + " + num2 + " = " + mathOperations.ParseNumberToString(sum)
+	fmt.Fprintf(w, response)
+
+}
+
 //handle http request
 func HandleRequests() {
 
 	myRouter := mux.NewRouter().StrictSlash(true)
 	myRouter.HandleFunc("/", homePage)
 	myRouter.HandleFunc("/doc", docs)
+	myRouter.HandleFunc("/sum/{num1}/{num2}", sumNumbers)
 
 	fmt.Println("open http://localhost:10000/ in your browser")
 
