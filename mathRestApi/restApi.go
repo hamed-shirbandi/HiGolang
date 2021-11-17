@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+
+	"github.com/gorilla/mux"
 	// "codeblock.ir/helloGoLang/mathOperations"
 )
 
@@ -18,9 +20,9 @@ func homePage(w http.ResponseWriter, r *http.Request) {
 //show API documentation
 func docs(w http.ResponseWriter, r *http.Request) {
 
-	fmt.Fprintf(w, "http://localhost:10000/ 				      ==> home page")
-	fmt.Fprintf(w, "\nhttp://localhost:10000/docs				  ==> api documentation")
-	fmt.Fprintf(w, "\nhttp://localhost:10000/sum/{num1}/{num2}    ==> sum 2 numbers")
+	fmt.Fprintf(w, "http://localhost:10000 ==> home page")
+	fmt.Fprintf(w, "\nhttp://localhost:10000/docs ==> api documentation")
+	fmt.Fprintf(w, "\nhttp://localhost:10000/sum/{num1}/{num2} ==> sum 2 numbers")
 
 	fmt.Println("Endpoint Hit: doc")
 }
@@ -28,11 +30,12 @@ func docs(w http.ResponseWriter, r *http.Request) {
 //handle http request
 func HandleRequests() {
 
-	http.HandleFunc("/", homePage)
-	http.HandleFunc("/doc", docs)
+	myRouter := mux.NewRouter().StrictSlash(true)
+	myRouter.HandleFunc("/", homePage)
+	myRouter.HandleFunc("/doc", docs)
 
 	fmt.Println("open http://localhost:10000/ in your browser")
 
-	log.Fatal(http.ListenAndServe(":10000", nil))
+	log.Fatal(http.ListenAndServe(":10000", myRouter))
 
 }
