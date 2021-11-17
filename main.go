@@ -2,8 +2,11 @@ package main
 
 import (
 	"fmt"
+
+	"codeblock.ir/helloGoLang/mathOperations"
 )
 
 func main() {
-	fmt.Println("hello")
+	var a = mathOperations.Sum(3, 8)
+	fmt.Println(a)
 }
