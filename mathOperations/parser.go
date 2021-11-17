@@ -10,3 +10,9 @@ func ParseStringToNumber(x string) int {
 
 	return intVar
 }
+
+func ParseNumberToString(x int) string {
+
+	return strconv.Itoa(x)
+
+}
