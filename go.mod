@@ -1,3 +1,3 @@
-module github.com/hamed-shirbandi/HiGolang/hello
+module codeblock.ir/helloGoLang
 
 go 1.17
