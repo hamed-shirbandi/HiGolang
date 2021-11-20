@@ -1,5 +1,5 @@
 # Learning new programming language
-Hello, I've been thinking about learning new language to see the software world with a different eye except C# and finally I can do it while I am free of working. I thing learning new programming language is somthing like learning new speacking language. You can know more culcher, comunicate with more pepole, learn new things and ...
+Hello, I've been thinking about learning new language to see the software world with a different eye except C# and finally I can do it while I am free of working. I think learning new programming language is something like learning new speaking language. You can know more cultures, communicate with more people, learn new things and improve.
 
 # Why GoLang?
 At the first I started with python. I did some little stuff with it but to be honest I didn't like it to continue, perhaps for the differences between Python and C# that made it hard to me to migrate. Python was a good language but I was adictted to C# :)
@@ -11,7 +11,7 @@ GoLang is much more easier than Python to migrate from C# and it has some good f
 # Start lerning!
 I've just like to make it easy to myself, I've been in love with C# my whole life so it is my main solution for real life of programing. But I'm so passionate to develope some real-world applications with GoLang soon.
 
-I start learning with 2 main resources to learn basic things and after that I will try advance topics by new resources.
+I start learning with 2 main resources to learn basic things and after that I will try advanced topics by new resources.
 
 <a href="golang.org/doc">golang.org/doc</a> and <a href="geeksforgeeks.org/golang">geeksforgeeks.org/golang</a> 
 
