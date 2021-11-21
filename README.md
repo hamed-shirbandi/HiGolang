@@ -32,5 +32,6 @@ Here is the history of what I've learned:
     - [x] Identifiers 
     - [x] Keywords
     - [x] Data Types
-    - [ ] Variables (to do)
+    - [x] Variables
+    - [ ] Constants (to do)
  
