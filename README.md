@@ -33,5 +33,6 @@ Here is the history of what I've learned:
     - [x] Keywords
     - [x] Data Types
     - [x] Variables
-    - [ ] Constants (to do)
+    - [x] Constants
+    - [ ] Operators (to do)
  
