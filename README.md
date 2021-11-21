@@ -31,5 +31,6 @@ Here is the history of what I've learned:
 *	### Fundamentals
     - [x] Identifiers 
     - [x] Keywords
-    - [ ] Data Types (to do)
+    - [x] Data Types
+    - [ ] Variables (to do)
  
