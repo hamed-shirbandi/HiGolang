@@ -8,7 +8,7 @@ GoLang is much more easier than Python to migrate from C# and it has some good f
 
 > Learning new language, better understanding software development!
 
-# Start lerning!
+# Start learning!
 I've just like to make it easy to myself, I've been in love with C# my whole life so it is my main solution for real life of programing. But I'm so passionate to develope some real-world applications with GoLang soon.
 
 I start learning with 2 main resources to learn basic things and after that I will try advanced topics by new resources.
