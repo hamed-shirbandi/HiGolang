@@ -35,5 +35,11 @@ Here is the history of what I've learned:
     - [x] Data Types
     - [x] Variables
     - [x] Constants
-    - [ ] Operators (to do)
+    - [x] Operators
  
+* ### Control Statements
+  - [ ] Decision Making (to do)
+  - [ ] Loops
+  - [ ] Switch 
+
+* ### Functions & Methods
