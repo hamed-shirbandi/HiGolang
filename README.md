@@ -25,8 +25,9 @@ Here is the history of what I've learned:
     - [x] Install Go on Windows
     - [x] Hello World
     - [x] Knowing packages
-    - [x] Create a simple API
-    - [x] Routing in API
+    - [x] API
+    - [x] Routing
+    - [x] Unit Test
  
 *	### Fundamentals
     - [x] Identifiers 
