@@ -38,11 +38,13 @@ Here is the history of what I've learned:
     - [x] Operators
  
 * ### Control Statements
-  - [ ] Decision Making (to do)
-  - [ ] Loops
-  - [ ] Switch 
+  - [x] Decision Making
+  - [x] Loops
+  - [x] Switch 
 
 * ### Functions & Methods
+   - [ ] Functions (to do)
+
 * ### Structure
 * ### Arrays
 * ### Slices
