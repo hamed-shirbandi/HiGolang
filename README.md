@@ -13,9 +13,9 @@ I've just like to make it easy to myself, I've been in love with C# my whole lif
 
 I start learning with 2 main resources to learn basic things and after that I will try advanced topics by new resources.
 
-<a href="golang.org/doc">golang.org/doc</a>
+<a href="https://golang.org/doc">golang.org/doc</a>
 
-<a href="geeksforgeeks.org/golang">geeksforgeeks.org/golang</a> 
+<a href="https://www.geeksforgeeks.org/golang/">geeksforgeeks.org/golang</a> 
 
 
 Here is the history of what I've learned:
