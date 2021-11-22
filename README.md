@@ -43,3 +43,10 @@ Here is the history of what I've learned:
   - [ ] Switch 
 
 * ### Functions & Methods
+* ### Structure
+* ### Arrays
+* ### Slices
+* ### Strings
+* ### Pointers
+* ### Concurrency
+
