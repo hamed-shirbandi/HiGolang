@@ -43,7 +43,9 @@ Here is the history of what I've learned:
   - [x] Switch 
 
 * ### Functions & Methods
-   - [ ] Functions (to do)
+   - [x] Functions
+   - [x] Variadic Functions
+   - [ ] Anonymous Functions
 
 * ### Structure
 * ### Arrays
